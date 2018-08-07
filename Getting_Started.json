@@ -2,9 +2,9 @@
   "paragraphs": [
     {
       "title": "Introduction",
-      "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n-vivek test\n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\nUser can configure parameters with which sc object is created by going to interpreters. \nUser can create as many sc interpreters as they want with different settings\nQubole Notes supports auto assist for code completion. You can view the suggestions using the key combination  __Ctrl + .(period)__\n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
+      "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n-vivek test\n-vivek test2\n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\nUser can configure parameters with which sc object is created by going to interpreters. \nUser can create as many sc interpreters as they want with different settings\nQubole Notes supports auto assist for code completion. You can view the suggestions using the key combination  __Ctrl + .(period)__\n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
       "user": "vsharma@qubole.com",
-      "dateUpdated": "Aug 7, 2018 9:22:53 PM",
+      "dateUpdated": "Aug 7, 2018 9:24:38 PM",
       "config": {
         "looknfeel": "default",
         "colWidth": 12.0,
@@ -978,9 +978,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "",
+      "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n",
       "user": "vsharma@qubole.com",
-      "dateUpdated": "Aug 7, 2018 9:22:55 PM",
+      "dateUpdated": "Aug 7, 2018 9:25:19 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
